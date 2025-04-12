@@ -747,11 +747,14 @@ object-fit: cover;
 .product-card {
     border: 1px solid #ccc;
     padding: 15px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 8px;
     max-width: 300px;
   }
-  
+  h2 + .product-card + .product-card + .product-card {
+    display: inline-block;
+    vertical-align: top;
+  }
   .product-image {
     width: 100%;
     height: auto;
@@ -772,6 +775,7 @@ object-fit: cover;
     border-radius: 5px;
   }
   
+
 
 /* About Page */
 #page-header.about-header{
